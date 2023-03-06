@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  width: 100%;
+  height: 475px;
+  padding: 100px 145px;
+  background-color: #5B6460;
+  // &__letter {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+  &__letter-title {
+    margin-bottom: 40px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #EFEFEF;
+  }
+  &__letter-form {
+    position: relative;
+    width: 430px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+
+  }
+  &__letter-form-input {
+    width: 100%;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+  }
+  &__letter-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+  }
+  &__letter-text {
+    max-width: 420px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #fff;
+  }
+  // &__letter-box {
+  //   position: relative;
+  // }
+  &__letter-symbol {
+    // position: absolute;
+    // bottom: 100;
+    margin-top: auto;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.13;
+    color: #efefef;
+  }
+  &__box {
+    background-color: transparent;
+    &-list {
+      display: flex; 
+      // justify-content: flex-end;
+      // margin-left: auto; 
+    }
+    &-item {
+      background-color: transparent;
+    }
+    &-item:not(:last-child) {
+      margin-right: 30px;
+    }
+    &-link {
+      background-color: transparent;
+    }
+  }
+  
+
+}

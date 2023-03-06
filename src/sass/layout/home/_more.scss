@@ -1,0 +1,25 @@
+.about {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  &__list {
+    display: flex;
+  }
+  &__button {
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    border-radius: 77px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #333333;
+    background-color: #E9ECE0;
+    border: none;
+    color: #333333;
+    font-family: DIN;
+    font-weight: 300;
+    font-size: 16px;    
+    line-height: 1.38;
+  }
+}
