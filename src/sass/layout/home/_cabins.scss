@@ -17,23 +17,26 @@
   &__title {
     max-width: 205px;
     margin-bottom: 50px;
-    margin-left: 145px; 
+    margin-left: 147px; 
   }
   &__text {
     max-width: 465px;
-    margin-left: 145px;
+    margin-left: 147px;
   }
   &__button {
-    margin-left: 145px;
+    margin-left: 147px;
   }
   &__gallery-list {
     display: flex;
     flex-wrap: nowrap;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
     justify-content: space-between;
   }
-  &__gallery-item {
-color: #fff;
+  &__gallery-img {
+    width: 430px;
+    height: 385px;
+    // width: calc((100% - 110px) / 3);
+    // height: auto;
   }
 }

@@ -1,12 +1,15 @@
 @import "./sass/utils/vars";
 // @import "./sass/utils/mixin";
-// @import "./sass/base/common";
-@import "./sass/base/reset";
-// @import './sass/base/visually-hidden';
-//! @import './sass/layouts/slider';
-// @import './sass/components/buttons';
 // @import "./sass/utils/placeholder";
-// @import "./sass/components/container";
+@import "./sass/base/reset";
+@import './sass/base/visually-hidden';
+//! @import './sass/layouts/slider';
+
+// @import "./sass/base/common";
+// @import './sass/components/buttons';
+// @import './sass/components/links';
+@import "./sass/components/container";
+
 @import "./sass/layout/header";
 @import "./sass/layout/about_us/about_us_pictures.scss";
 @import "./sass/layout/about_us/one_person.scss";

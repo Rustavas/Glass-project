@@ -1,9 +1,7 @@
 .about {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  max-width: 1400px;
+  height: 560;
   &__list {
     display: flex;
   }
@@ -23,5 +21,12 @@
     font-weight: 300;
     font-size: 16px;    
     line-height: 1.38;
+  }
+  &__img {
+    width: 700px;
+    height: 100%;
+    // object-fit: cover;
+    // width: calc( 100% * 0.5 );
+    
   }
 }
